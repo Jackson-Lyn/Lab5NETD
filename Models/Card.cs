@@ -21,4 +21,14 @@ namespace Lab5NETD.Models
         public string Info { get; set; }
 
     }
+
+    public class User
+    {
+        public int UserID { get; set; }
+        public int CardID { get; set; }
+
+        public string FirstName { get; set; }
+
+        public string LastName { get; set; }
+    }
 }

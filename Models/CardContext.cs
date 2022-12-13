@@ -11,5 +11,6 @@ namespace Lab5NETD.Models
 
         }
         public DbSet<Card> Cards { get; set; }
+        public DbSet<User> Users { get; set; }
     }
 }
