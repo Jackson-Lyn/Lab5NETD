@@ -1,4 +1,8 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿/* name: Jackson
+ * date: 12/28/02
+ * Description: Lab5 NETD
+ * */
+using Microsoft.EntityFrameworkCore;
 
 namespace Lab5NETD.Models
 {
@@ -10,6 +14,7 @@ namespace Lab5NETD.Models
         {
 
         }
+        // getters and setters
         public DbSet<Card> Cards { get; set; }
         public DbSet<User> Users { get; set; }
     }

@@ -21,7 +21,7 @@ namespace Lab5NETD.Models
         public string Info { get; set; }
 
     }
-
+    // getters and setters
     public class User
     {
         public int UserID { get; set; }
